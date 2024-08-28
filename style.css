@@ -2,6 +2,8 @@
     --margin-zero: 0px;
     --padding-zero: 0px;
 
+    --font-family: 'Barlow Semi Condensed', sans-serif;
+
     --padding-base-rem: 1.6rem;
 
     --color-white: hsl(0,0%,100%);
@@ -33,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: var(--font-family);
     min-height: 100vh; 
     font-size: 13px;
     background-color: var(--color-gray);
